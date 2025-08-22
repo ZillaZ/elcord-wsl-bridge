@@ -1,7 +1,8 @@
 # Discord Rich Presence for Emacs on WSL
 
 If you pretend to use this just remember to modify the path to dc-bridge.exe on elcord.el
-```
+
+```elisp
 (defun elcord--make-process ()
   "Make the asynchronous process that communicates with Discord IPC.
 This FINAL version uses cmd.exe for maximum compatibility."
